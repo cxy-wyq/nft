@@ -121,10 +121,10 @@
         <div class="explain">
           Dimensional provides technical and innovative solutions to game development companies.
         </div>
-        <div class="contetx">
-          <div class="contetx_left">
-            <div>
-
+        <div class="context">
+          <div class="context_left">
+            <div class="icon_5">
+              <img src="@/assets/area_5_left.png" />
             </div>
             <div class="context_title">
               SDK multi-chain integration
@@ -134,9 +134,9 @@
               ftraditional SDK,thus no additional learning costs.
             </div>
           </div>
-          <div class="contetx_right">
-            <div>
-
+          <div class="context_right">
+            <div class="icon_5">
+              <img src="@/assets/area_5_right.png" />
             </div>
             <div class="context_title">
               Decentralized server framework
@@ -146,6 +146,184 @@
               resources between different technologies. The benefits of Dimensional SDK middleware to game applications
               are not only simple access.
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="area_6">
+      <div class="main">
+        <div class="main_item">
+          <div class="year">
+            2020
+          </div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+              <div class="line" />
+            </div>
+            <div>
+              <div class="contetx_title">
+                July 2020
+              </div>
+              <div class="context">
+                Start the concept of Dimensional platform, and demonstrate the development route of Dimensional concept
+                and business plan.
+              </div>
+            </div>
+          </div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+            </div>
+            <div>
+              <div class="contetx_title">
+                September 2020
+              </div>
+              <div class="context">
+                Dimensional team was set up and synchronously open the development of SDK.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main_item">
+          <div class="year">
+            2021
+          </div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+              <div class="line" />
+            </div>
+            <div>
+              <div class="contetx_title">
+                July 2021
+              </div>
+              <div class="context">
+                Basically completed the technical development and test of middleware and SDK for game asset release, and
+                started the platform system test.
+              </div>
+            </div>
+          </div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+              <div class="line" />
+            </div>
+            <div>
+              <div class="contetx_title">
+                2020 Q3
+              </div>
+              <div class="context">
+                Dimensional platform EVM version was launched, and opened the source code. Finish the publishment of
+                Dimensional technical documents and SDK. The team prepared the launch of the platform Token $DIM.
+              </div>
+            </div>
+          </div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+            </div>
+            <div>
+              <div class="contetx_title">
+                2020 Q4
+              </div>
+              <div class="context">
+                Dimensional platform officially launched. The SDK Demo version test and the SDK cooperation with game
+                team will start.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main_item">
+          <div class="year">
+            2022
+          </div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+              <div class="line" />
+            </div>
+            <div>
+              <div class="contetx_title">
+                2020 Q1
+              </div>
+              <div class="context">
+                It will gradually support mainstream public chains such as SOL, AVAX, FTM, Polkadot, and LUNA.
+              </div>
+            </div>
+          </div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+              <div class="line" />
+            </div>
+            <div>
+              <div class="contetx_title">
+                2020 Q2
+              </div>
+              <div class="context">
+                Dimensional platform Stand-alone Chain development will be completed, and open each game project to
+                Stand-alone Chain migration. Improve the SDK functions and API interface. The platform's own game
+                development will be completed and launched.
+              </div>
+            </div>
+          </div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+            </div>
+            <div>
+              <div class="contetx_title">
+                2020 Q3
+              </div>
+              <div class="context">
+                The Dimensional platform has officially joined the metaverse. Dimensional will establish an integrated
+                player, Game Miner, Token Trader and NFT Collector chain game user ecosystem.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main_item main_item_end">
+          <div class="year">
+            <img src="@/assets/left.png" class="year" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="area_5 area_7">
+      <div class="main">
+        <div class="title">STRATEGIC PARTHERS</div>
+        <div class="orthogon"></div>
+        <div>
+          <div>
+            <img src="@/static/index/bitcoin.png" />
+          </div>
+          <div>
+            <img src="@/static/index/eth.png" />
+          </div>
+          <div>
+            <img src="@/static/index/neo.png" />
+          </div>
+          <div>
+            <img src="@/static/index/eosio.png" />
+          </div>
+          <div>
+            <img src="@/static/index/filecoin.png" />
+          </div>
+          <div>
+            <img src="@/static/index/near.png" />
+          </div>
+          <div>
+            <img src="@/static/index/nabox.png" />
+          </div>
+          <div>
+            <img src="@/static/index/polkadot.png" />
+          </div>
+          <div>
+            <img src="@/static/index/reef.png" />
+          </div>
+          <div>
+            <img src="@/static/index/maze.png" />
           </div>
         </div>
       </div>
@@ -182,6 +360,7 @@ export default {
 .area_1 .title {
   width: 40rem;
   margin-bottom: -2rem;
+  padding-top: 7rem;
 }
 .area_1 .context {
   width: 80rem;
@@ -347,7 +526,112 @@ export default {
   text-align: center;
   margin: 3rem 0;
 }
-.area_5 .context {
+.area_5 .main .context {
   display: flex;
+  justify-content: center;
+}
+.area_5 .main .context .context_right {
+  width: 20rem;
+  min-height: 20rem;
+  margin-left: 5rem;
+  border-radius: 1rem;
+  background-color: #f2b21b;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+.area_5 .main .context .context_left {
+  width: 20rem;
+  min-height: 20rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #000;
+  border: #f2b21b 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0rem 1rem;
+}
+.context .context_main {
+  font-size: 0.6rem;
+}
+.context .context_title {
+  margin: 2rem 0;
+}
+.icon_5 img {
+  height: 3rem;
+}
+.area_6 {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+    url("../static/index/bg4.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+}
+.area_6 .main {
+  display: flex;
+  margin: auto;
+}
+.main .main_item {
+  width: 25%;
+  min-height: 100vh;
+  background: #fff;
+  padding: 1rem;
+}
+.main .main_item_end {
+  background: rgba(255, 255, 255, 0.5);
+}
+.canvas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+  flex-shrink: 0;
+}
+.radio {
+  border-radius: 10rem;
+  background: #f2b21b;
+  width: 1rem;
+  height: 1rem;
+}
+.line {
+  border-left: 1px dashed #f2b21b;
+  height: calc(100% - 1rem);
+}
+.paragraph {
+  display: flex;
+}
+.main_item .year {
+  font-size: 5rem;
+  font-weight: 1000;
+  text-align: center;
+  margin: 1rem 0;
+}
+.contetx_title {
+  font-size: 1rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.area_6 .context {
+  margin: 1rem 0;
+}
+.area_7 {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+    url("../static/index/bg5.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
 }
 </style>
