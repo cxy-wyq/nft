@@ -4,21 +4,19 @@
     <div class="area_1">
       <img src="@/static/index/title.png" class="title" />
       <div class="context">
-        THE DIMENSIONAL DAO ALLIANCE IS A DECENTRALIZED JOINT CREATION COMMUNITY COMPOSED OF FANS/ FANS WHO LIKE THE
-        SECOND DIMENSION IN THE WORLD
+        THE DIMENSIONAL DAO ALLIANCE IS A DECENTRALIZED JOINT CREATION COMMUNITY
+        COMPOSED OF FANS/ FANS WHO LIKE THE SECOND DIMENSION IN THE WORLD
       </div>
       <div class="logo">
-        <img class="app" src="@/assets/telegram.png">
-        <img class="app" src="@/assets/twitter.png">
-        <img class="app" src="@/assets/facebook.png">
-        <img class="app" src="@/assets/github.png">
+        <img class="app" src="@/assets/telegram.png" />
+        <img class="app" src="@/assets/twitter.png" />
+        <img class="app" src="@/assets/facebook.png" />
+        <img class="app" src="@/assets/github.png" />
       </div>
     </div>
     <div class="area_2">
       <div class="top">
-        <div class="title">
-          ABOUT DIMENSIONAL
-        </div>
+        <div class="title">ABOUT DIMENSIONAL</div>
         <div class="maintitle">
           <div class="line"></div>
           ABOUT DIMENSIONAL
@@ -35,7 +33,8 @@
           <img src="@/static/token/rectangles.png" class="rectangles" />
           <img src="@/static/token/rectangles.png" class="rectangles" />
         </div>
-        Committed to the refined development of DAO, in the metaverse world for your favorite two-dimensional IP
+        Committed to the refined development of DAO, in the metaverse world for
+        your favorite two-dimensional IP
       </div>
       <div>
         <div class="context">
@@ -44,44 +43,50 @@
             <img src="@/static/token/rectangles.png" class="rectangles" />
           </div>
           Included in Won Woo
-          <br>
-          On-site support, Metaverse creation, fan meeting and other activities were carried out.
+          <br />
+          On-site support, Metaverse creation, fan meeting and other activities
+          were carried out.
         </div>
       </div>
     </div>
     <div class="area_3">
-      <img class="logo" src="@/static/index/title2.png">
+      <img class="logo" src="@/static/index/title2.png" />
       <div class="rectangleflex">
         <img src="@/static/token/rectangles.png" class="rectangles" />
         <img src="@/static/token/rectangle.png" class="rectangle" />
         <img src="@/static/token/rectangles.png" class="rectangles" />
       </div>
       <div class="context">
-        In addition, the stand-alone chain supports Ethereum Virtual Machines (EVM) in its own verifier pool to share
-        Ethereum security. In general, it applies to the verifier pool that can be completely decentralized and secure.
-        Based on Ethereum, Dimensional has built a modular, universal and flexible blockchain game framework to provide
-        support for middleware technology, release of game assets, transaction of game props, traffic ecology sharing,
-        asset trading on the chain, platform arena and other functions.
+        In addition, the stand-alone chain supports Ethereum Virtual Machines
+        (EVM) in its own verifier pool to share Ethereum security. In general,
+        it applies to the verifier pool that can be completely decentralized and
+        secure. Based on Ethereum, Dimensional has built a modular, universal
+        and flexible blockchain game framework to provide support for middleware
+        technology, release of game assets, transaction of game props, traffic
+        ecology sharing, asset trading on the chain, platform arena and other
+        functions.
       </div>
-      <img src="@/assets/bottom.png">
+      <img src="@/assets/bottom.png" />
       <div class="feature">
         <div class="feature_item">
           <div>
-            <img src="@/assets/twitter.png">
+            <img src="@/assets/twitter.png" />
           </div>
           <div class="feature_name">speciality</div>
           <div>The most professional development team</div>
         </div>
         <div class="feature_item">
           <div>
-            <img src="@/assets/twitter.png">
+            <img src="@/assets/twitter.png" />
           </div>
           <div class="feature_name">safety</div>
-          <div>Dedicated to user virtual currency account security considerations</div>
+          <div>
+            Dedicated to user virtual currency account security considerations
+          </div>
         </div>
         <div class="feature_item">
           <div>
-            <img src="@/assets/twitter.png">
+            <img src="@/assets/twitter.png" />
           </div>
           <div class="feature_name">Fast</div>
           <div>Create faster block chain network applications</div>
@@ -95,21 +100,23 @@
         <div class="context">
           <li>About SDK</li>
           <div>
-            The abbreviation for middleware is SDK. The SDK provided by DIM includes user wallets, blockchain browser
-            interfaces, authentication signatures, anti-cheat modules, Websockets and events, Solidity + Ethereum
-            Virtual
-            Machines, transfer gateway integration, and more functions.
+            The abbreviation for middleware is SDK. The SDK provided by DIM
+            includes user wallets, blockchain browser interfaces, authentication
+            signatures, anti-cheat modules, Websockets and events, Solidity +
+            Ethereum Virtual Machines, transfer gateway integration, and more
+            functions.
           </div>
         </div>
         <div class="context">
           <li>SDK Technical Description</li>
           <div>
-            Middleware is an independent system software or service program that distributed applications use to share
-            resources between different technologies. The benefits of Gmatrixs SDK middleware to game applications are
-            not
-            only simple access, shorten access cycle, but also provide chain maintenance, contract writing and resource
-            management. The SDK interface provided by Gmatrixs allows developers to quickly develop blockchain-based
-            games.
+            Middleware is an independent system software or service program that
+            distributed applications use to share resources between different
+            technologies. The benefits of Gmatrixs SDK middleware to game
+            applications are not only simple access, shorten access cycle, but
+            also provide chain maintenance, contract writing and resource
+            management. The SDK interface provided by Gmatrixs allows developers
+            to quickly develop blockchain-based games.
           </div>
         </div>
       </div>
@@ -119,32 +126,31 @@
         <div class="title">DIMENSIONAL TECHNOLOGY DESCRIPTION</div>
         <div class="orthogon"></div>
         <div class="explain">
-          Dimensional provides technical and innovative solutions to game development companies.
+          Dimensional provides technical and innovative solutions to game
+          development companies.
         </div>
         <div class="context">
           <div class="context_left">
             <div class="icon_5">
               <img src="@/assets/area_5_left.png" />
             </div>
-            <div class="context_title">
-              SDK multi-chain integration
-            </div>
+            <div class="context_title">SDK multi-chain integration</div>
             <div class="context_main">
-              The SDK integration multiple chains provide by DIM(ETH/BSC/HECO) uses the same procedure of access from
-              ftraditional SDK,thus no additional learning costs.
+              The SDK integration multiple chains provide by DIM(ETH/BSC/HECO)
+              uses the same procedure of access from ftraditional SDK,thus no
+              additional learning costs.
             </div>
           </div>
           <div class="context_right">
             <div class="icon_5">
               <img src="@/assets/area_5_right.png" />
             </div>
-            <div class="context_title">
-              Decentralized server framework
-            </div>
+            <div class="context_title">Decentralized server framework</div>
             <div class="context_main">
-              Middleware is an independent system software or service program that distributed applications use to share
-              resources between different technologies. The benefits of Dimensional SDK middleware to game applications
-              are not only simple access.
+              Middleware is an independent system software or service program
+              that distributed applications use to share resources between
+              different technologies. The benefits of Dimensional SDK middleware
+              to game applications are not only simple access.
             </div>
           </div>
         </div>
@@ -153,21 +159,17 @@
     <div class="area_6">
       <div class="main">
         <div class="main_item">
-          <div class="year">
-            2020
-          </div>
+          <div class="year">2020</div>
           <div class="paragraph">
             <div class="canvas">
               <div class="radio" />
               <div class="line" />
             </div>
             <div>
-              <div class="contetx_title">
-                July 2020
-              </div>
+              <div class="contetx_title">July 2020</div>
               <div class="context">
-                Start the concept of Dimensional platform, and demonstrate the development route of Dimensional concept
-                and business plan.
+                Start the concept of Dimensional platform, and demonstrate the
+                development route of Dimensional concept and business plan.
               </div>
             </div>
           </div>
@@ -176,18 +178,29 @@
               <div class="radio" />
             </div>
             <div>
-              <div class="contetx_title">
-                September 2020
-              </div>
+              <div class="contetx_title">September 2020</div>
               <div class="context">
-                Dimensional team was set up and synchronously open the development of SDK.
+                Dimensional team was set up and synchronously open the
+                development of SDK.
               </div>
             </div>
           </div>
         </div>
         <div class="main_item">
-          <div class="year">
-            2021
+          <div class="year">2021</div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+              <div class="line" />
+            </div>
+            <div>
+              <div class="contetx_title">July 2021</div>
+              <div class="context">
+                Basically completed the technical development and test of
+                middleware and SDK for game asset release, and started the
+                platform system test.
+              </div>
+            </div>
           </div>
           <div class="paragraph">
             <div class="canvas">
@@ -195,27 +208,12 @@
               <div class="line" />
             </div>
             <div>
-              <div class="contetx_title">
-                July 2021
-              </div>
+              <div class="contetx_title">2020 Q3</div>
               <div class="context">
-                Basically completed the technical development and test of middleware and SDK for game asset release, and
-                started the platform system test.
-              </div>
-            </div>
-          </div>
-          <div class="paragraph">
-            <div class="canvas">
-              <div class="radio" />
-              <div class="line" />
-            </div>
-            <div>
-              <div class="contetx_title">
-                2020 Q3
-              </div>
-              <div class="context">
-                Dimensional platform EVM version was launched, and opened the source code. Finish the publishment of
-                Dimensional technical documents and SDK. The team prepared the launch of the platform Token $DIM.
+                Dimensional platform EVM version was launched, and opened the
+                source code. Finish the publishment of Dimensional technical
+                documents and SDK. The team prepared the launch of the platform
+                Token $DIM.
               </div>
             </div>
           </div>
@@ -224,19 +222,28 @@
               <div class="radio" />
             </div>
             <div>
-              <div class="contetx_title">
-                2020 Q4
-              </div>
+              <div class="contetx_title">2020 Q4</div>
               <div class="context">
-                Dimensional platform officially launched. The SDK Demo version test and the SDK cooperation with game
-                team will start.
+                Dimensional platform officially launched. The SDK Demo version
+                test and the SDK cooperation with game team will start.
               </div>
             </div>
           </div>
         </div>
         <div class="main_item">
-          <div class="year">
-            2022
+          <div class="year">2022</div>
+          <div class="paragraph">
+            <div class="canvas">
+              <div class="radio" />
+              <div class="line" />
+            </div>
+            <div>
+              <div class="contetx_title">2020 Q1</div>
+              <div class="context">
+                It will gradually support mainstream public chains such as SOL,
+                AVAX, FTM, Polkadot, and LUNA.
+              </div>
+            </div>
           </div>
           <div class="paragraph">
             <div class="canvas">
@@ -244,27 +251,12 @@
               <div class="line" />
             </div>
             <div>
-              <div class="contetx_title">
-                2020 Q1
-              </div>
+              <div class="contetx_title">2020 Q2</div>
               <div class="context">
-                It will gradually support mainstream public chains such as SOL, AVAX, FTM, Polkadot, and LUNA.
-              </div>
-            </div>
-          </div>
-          <div class="paragraph">
-            <div class="canvas">
-              <div class="radio" />
-              <div class="line" />
-            </div>
-            <div>
-              <div class="contetx_title">
-                2020 Q2
-              </div>
-              <div class="context">
-                Dimensional platform Stand-alone Chain development will be completed, and open each game project to
-                Stand-alone Chain migration. Improve the SDK functions and API interface. The platform's own game
-                development will be completed and launched.
+                Dimensional platform Stand-alone Chain development will be
+                completed, and open each game project to Stand-alone Chain
+                migration. Improve the SDK functions and API interface. The
+                platform's own game development will be completed and launched.
               </div>
             </div>
           </div>
@@ -273,12 +265,11 @@
               <div class="radio" />
             </div>
             <div>
-              <div class="contetx_title">
-                2020 Q3
-              </div>
+              <div class="contetx_title">2020 Q3</div>
               <div class="context">
-                The Dimensional platform has officially joined the metaverse. Dimensional will establish an integrated
-                player, Game Miner, Token Trader and NFT Collector chain game user ecosystem.
+                The Dimensional platform has officially joined the metaverse.
+                Dimensional will establish an integrated player, Game Miner,
+                Token Trader and NFT Collector chain game user ecosystem.
               </div>
             </div>
           </div>
@@ -294,35 +285,35 @@
       <div class="main">
         <div class="title">STRATEGIC PARTHERS</div>
         <div class="orthogon"></div>
-        <div>
-          <div>
+        <div class="trademark">
+          <div class="bg">
             <img src="@/static/index/bitcoin.png" />
           </div>
-          <div>
+          <div class="bg">
             <img src="@/static/index/eth.png" />
           </div>
-          <div>
+          <div class="bg">
             <img src="@/static/index/neo.png" />
           </div>
-          <div>
+          <div class="bg">
             <img src="@/static/index/eosio.png" />
           </div>
-          <div>
+          <div class="bg">
             <img src="@/static/index/filecoin.png" />
           </div>
-          <div>
+          <div class="bg">
             <img src="@/static/index/near.png" />
           </div>
-          <div>
+          <div class="bg">
             <img src="@/static/index/nabox.png" />
           </div>
-          <div>
+          <div class="bg">
             <img src="@/static/index/polkadot.png" />
           </div>
-          <div>
+          <div class="bg">
             <img src="@/static/index/reef.png" />
           </div>
-          <div>
+          <div class="bg">
             <img src="@/static/index/maze.png" />
           </div>
         </div>
@@ -332,14 +323,14 @@
   </div>
 </template>
 <script>
-import NavigationBar from "@/components/NavigationBar.vue"
-import Base from "@/components/Base.vue"
+import NavigationBar from "@/components/NavigationBar.vue";
+import Base from "@/components/Base.vue";
 export default {
   components: {
     NavigationBar,
-    Base
-  }
-}
+    Base,
+  },
+};
 </script>
 <style scoped>
 .nab {
@@ -632,6 +623,24 @@ export default {
   background-size: cover;
   background-position: center;
   color: #fff;
-  text-align: center;
+}
+.trademark {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bg {
+  background-color: #000;
+  display: flex;
+  margin: 2rem;
+}
+.bg img {
+  margin: 1rem 1rem;
+  width: 20rem;
+  /* height:  5rem;; */
+}
+.bg:hover {
+  background-color: #f2b21b;
 }
 </style>
