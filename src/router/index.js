@@ -20,6 +20,11 @@ export default new Router({
       path: '/FAQ',
       name: 'FAQ',
       component: (resolve) => { require(['@/page/faq'], resolve) }
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: (resolve) => { require(['@/page/news'], resolve) }
     }
   ]
 })

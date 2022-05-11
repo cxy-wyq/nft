@@ -625,7 +625,8 @@ export default {
   color: #fff;
 }
 .trademark {
-  margin: 3rem 0;
+  width: 60vw;
+  margin: 5rem auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -633,12 +634,12 @@ export default {
 .bg {
   background-color: #000;
   display: flex;
-  margin: 2rem;
+  padding: 1vw;
+  margin: 1vw;
 }
 .bg img {
-  margin: 1rem 1rem;
-  width: 20rem;
-  /* height:  5rem;; */
+  width: 8vw;
+  height: 100%;
 }
 .bg:hover {
   background-color: #f2b21b;

@@ -14,7 +14,11 @@
           NFT
         </div>
         <div>
-          NEWS
+          <router-link to="/news">
+            <div>
+              NEWS
+            </div>
+          </router-link>
         </div>
         <div>
           <router-link to="/TOKEN">
