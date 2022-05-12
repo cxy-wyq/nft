@@ -11,7 +11,7 @@
       <div>
         <div class="title">Support</div>
         <p>Whitepaper</p>
-        <router-link to="/FAQ">
+        <router-link to="/faq">
           <p>FAQ</p>
         </router-link>
         <p>Governance</p>

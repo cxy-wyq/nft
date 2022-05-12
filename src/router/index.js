@@ -8,23 +8,28 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: (resolve) => { require(['@/page/Home'], resolve) }
+      name: 'Hone',
+      component: (resolve) => { require(['@/page/home'], resolve) }
     },
     {
-      path: '/TOKEN',
-      name: 'token',
+      path: '/token',
+      name: 'Token',
       component: (resolve) => { require(['@/page/token'], resolve) }
     },
     {
-      path: '/FAQ',
+      path: '/faq',
       name: 'FAQ',
       component: (resolve) => { require(['@/page/faq'], resolve) }
     },
     {
       path: '/news',
-      name: 'news',
+      name: 'News',
       component: (resolve) => { require(['@/page/news'], resolve) }
+    },
+    {
+      path: '/shownew',
+      name: 'ShowNew',
+      component: (resolve) => { require(['@/page/shownew'], resolve) }
     }
   ]
 })

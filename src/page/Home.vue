@@ -18,9 +18,9 @@
       <div class="top">
         <div class="title">ABOUT DIMENSIONAL</div>
         <div class="maintitle">
-          <div class="line"></div>
+          <img src="@/static/index/line.png">
           ABOUT DIMENSIONAL
-          <div class="line"></div>
+          <img src="@/static/index/line.png">
         </div>
         <div class="rectangleflex">
           <img src="@/static/token/rectangles.png" class="rectangles" />
@@ -50,11 +50,18 @@
       </div>
     </div>
     <div class="area_3">
-      <img class="logo" src="@/static/index/title2.png" />
-      <div class="rectangleflex">
-        <img src="@/static/token/rectangles.png" class="rectangles" />
-        <img src="@/static/token/rectangle.png" class="rectangle" />
-        <img src="@/static/token/rectangles.png" class="rectangles" />
+      <div class="top">
+        <div class="title">PLATFORM</div>
+        <div class="maintitle">
+          <img src="@/static/index/line.png">
+          PLATFORM
+          <img src="@/static/index/line.png">
+        </div>
+        <div class="rectangleflex">
+          <img src="@/static/token/rectangles.png" class="rectangles" />
+          <img src="@/static/token/rectangle.png" class="rectangle" />
+          <img src="@/static/token/rectangles.png" class="rectangles" />
+        </div>
       </div>
       <div class="context">
         In addition, the stand-alone chain supports Ethereum Virtual Machines
@@ -70,14 +77,14 @@
       <div class="feature">
         <div class="feature_item">
           <div>
-            <img src="@/assets/twitter.png" />
+            <img src="@/assets/speciality.png" />
           </div>
           <div class="feature_name">speciality</div>
           <div>The most professional development team</div>
         </div>
         <div class="feature_item">
           <div>
-            <img src="@/assets/twitter.png" />
+            <img src="@/assets/safety.png" />
           </div>
           <div class="feature_name">safety</div>
           <div>
@@ -86,7 +93,7 @@
         </div>
         <div class="feature_item">
           <div>
-            <img src="@/assets/twitter.png" />
+            <img src="@/assets/Fast.png" />
           </div>
           <div class="feature_name">Fast</div>
           <div>Create faster block chain network applications</div>
@@ -394,17 +401,10 @@ export default {
   display: flex;
   align-items: center;
 }
-.area_2 .line {
-  width: 321px;
-  height: 8px;
-  margin: 0 10px 0 10px;
-  border-radius: 1px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.6) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+.area_2 .maintitle img {
+  width: 20vw;
 }
+
 .area_2 .context {
   color: #fff;
   text-align: center;
@@ -422,9 +422,7 @@ export default {
   height: 2rem;
   margin: 0 -1rem;
 }
-.top {
-  margin-bottom: 4rem;
-}
+
 .area_2 .context .rectangleflex .rectangles {
   margin: 0 -0.5rem;
 }
@@ -439,8 +437,25 @@ export default {
   background-size: cover;
   background-position: center;
 }
-.area_3 .rectangleflex {
-  margin-top: -6rem;
+.area_3 .title {
+  font-size: 4.5rem;
+  margin-top: 2rem;
+  color: #ffffff;
+  text-shadow: 0px 3px 20px #438dee;
+  opacity: 0.27;
+  text-align: center;
+}
+.area_3 .maintitle {
+  font-size: 3.5rem;
+  color: #ffffff;
+  text-shadow: 0px 3px 20px #f2b21b;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.area_3 .maintitle img {
+  width: 20vw;
 }
 .area_3 .context {
   color: #fff;

@@ -5,33 +5,31 @@
         <img class="logo" src="@/assets/logo.png">
       </div>
       <div class="context">
-        <router-link to="/">
-          <div>
+        <div :class="$route.path=='/'?'page i':'page'">
+          <router-link to="/">
             Home
-          </div>
-        </router-link>
-        <div>
-          NFT
+          </router-link>
         </div>
-        <div>
+        <div :class="$route.path=='/NTF'?'page i':'page'">
+          <router-link to="/">
+            NTF
+          </router-link>
+        </div>
+        <div :class="$route.path=='/news'?'page i':'page'">
           <router-link to="/news">
-            <div>
-              NEWS
-            </div>
+            NEWS
           </router-link>
         </div>
-        <div>
-          <router-link to="/TOKEN">
-            <div>
-              TOKEN
-            </div>
+        <div :class="$route.path=='/token'?'page i':'page'">
+          <router-link to="/token">
+            TOKEN
           </router-link>
         </div>
-        <router-link to="/FAQ">
-          <div>
+        <div :class="$route.path=='/faq'?'page i':'page'">
+          <router-link to="/faq">
             FAQ
-          </div>
-        </router-link>
+          </router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -63,5 +61,13 @@
 a {
   color: #ffffff;
   text-decoration: none;
+}
+.page {
+  height: 99%;
+  display: flex;
+  align-items: center;
+}
+.i {
+  border-bottom: 1px solid #f2b21b;
 }
 </style>
