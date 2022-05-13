@@ -364,7 +364,7 @@ export default {
   width: 80rem;
   color: #fff;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1vw;
 }
 .area_1 .logo {
   margin: 5rem 0;
@@ -385,7 +385,7 @@ export default {
   background-position: center;
 }
 .area_2 .title {
-  font-size: 4.5rem;
+  font-size: 4vw;
   margin-top: 2rem;
   color: #ffffff;
   text-shadow: 0px 3px 20px #438dee;
@@ -393,7 +393,7 @@ export default {
   text-align: center;
 }
 .area_2 .maintitle {
-  font-size: 3.5rem;
+  font-size: 3vw;
   color: #ffffff;
   text-shadow: 0px 3px 20px #f2b21b;
   opacity: 1;
@@ -409,6 +409,7 @@ export default {
   color: #fff;
   text-align: center;
   margin: 4rem 0;
+  font-size: 1vw;
 }
 .rectangleflex {
   text-align: center;
@@ -438,7 +439,7 @@ export default {
   background-position: center;
 }
 .area_3 .title {
-  font-size: 4.5rem;
+  font-size: 4vw;
   margin-top: 2rem;
   color: #ffffff;
   text-shadow: 0px 3px 20px #438dee;
@@ -446,7 +447,7 @@ export default {
   text-align: center;
 }
 .area_3 .maintitle {
-  font-size: 3.5rem;
+  font-size: 3vw;
   color: #ffffff;
   text-shadow: 0px 3px 20px #f2b21b;
   opacity: 1;
@@ -462,11 +463,13 @@ export default {
   width: 70vw;
   text-align: center;
   margin: 4rem 0;
+  font-size: 1.3vw;
 }
 .feature {
   display: flex;
   width: 80rem;
   justify-content: center;
+  font-size: 1vw;
 }
 .feature_item {
   width: 20%;
@@ -485,11 +488,12 @@ export default {
   justify-content: flex-start;
   flex-direction: column;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
-    url("../static/index/bg3.jpg");
+    url("../static/index/bg3.png");
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #000;
   color: #fff;
 }
 .main {
@@ -497,8 +501,9 @@ export default {
   margin: 4rem auto;
 }
 .main .title {
-  font-size: 3rem;
+  font-size: 3vw;
   margin: 4rem 0 3rem 0;
+  text-align: center;
 }
 .area_4 .main .orthogon {
   width: 22rem;
@@ -509,7 +514,13 @@ export default {
 }
 .area_4 .main .context li {
   margin: 3rem 0;
-  font-size: 2rem;
+  font-size: 2vw;
+}
+.area_4 .main .title {
+  text-align: left;
+}
+.area_4 .main {
+  font-size: 1vw;
 }
 .area_5 {
   display: flex;
@@ -531,10 +542,12 @@ export default {
 .explain {
   text-align: center;
   margin: 3rem 0;
+  font-size: 1vw;
 }
 .area_5 .main .context {
   display: flex;
   justify-content: center;
+  font-size: 1vw;
 }
 .area_5 .main .context .context_right {
   width: 20rem;
@@ -616,19 +629,20 @@ export default {
   display: flex;
 }
 .main_item .year {
-  font-size: 5rem;
+  font-size: 3vw;
   font-weight: 1000;
   text-align: center;
   margin: 1rem 0;
 }
 .contetx_title {
-  font-size: 1rem;
+  font-size: 1vw;
   font-weight: 800;
   display: flex;
   align-items: center;
 }
 .area_6 .context {
   margin: 1rem 0;
+  font-size: 1vw;
 }
 .area_7 {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
@@ -639,17 +653,21 @@ export default {
   background-position: center;
   color: #fff;
 }
+.area_7 .main {
+  width: 95%;
+  padding: 10rem 0;
+}
 .trademark {
-  width: 60vw;
+  width: 90vw;
   margin: 5rem auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 .bg {
-  background-color: #000;
+  background-color: #1e1e1e;
   display: flex;
-  padding: 1vw;
+  padding: 2vw 4vw;
   margin: 1vw;
 }
 .bg img {
