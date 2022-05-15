@@ -38,16 +38,16 @@
 .main {
   width: 100vw;
   display: flex;
-  height: 8rem;
   background: rgba(0, 0, 0, 0.3);
   flex-wrap: wrap;
 }
 .logoflex {
   display: flex;
   align-items: center;
+  margin: 0 13.6vw 0 9.66vw;
 }
 .logo {
-  height: 7rem;
+  width: 10vw;
 }
 .context {
   display: flex;
@@ -55,7 +55,8 @@
   align-content: center;
   align-items: center;
   justify-content: space-around;
-  font-size: 1.4rem;
+  font-size: 24px;
+  font-weight: 400;
   flex-grow: 1;
 }
 a {

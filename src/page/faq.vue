@@ -31,9 +31,9 @@
         <img class="app" src="@/assets/icon2.png">
         <img class="app" src="@/assets/github.png">
       </div>
-      <span class="title">
+      <div class="title">
         INTRODUCTION TO CHAIN TOUR
-      </span>
+      </div>
       <div class="context">
         Clash of clans is a strategic chain game developed by the development team of supercell oy, a Finnish game
         company. Supercell oy is a game studio established by ilkka paananen and five other co founders in 2010,
@@ -46,9 +46,9 @@
       </div>
     </div>
     <div class="descriptions">
-      <span class="title">
+      <div class="title">
         TEAM INTRODUCTION
-      </span>
+      </div>
       <div class="context">
         Co founders: Mikko kodisoja, Niko derome, visa forsten, Lassi leppinen and Petri styrman. The six co founders
         are senior people in the game industry and have worked in large companies such as digital chocolate and remedy.
@@ -64,9 +64,9 @@
       </div>
     </div>
     <div class="descriptions">
-      <span class="title">
+      <div class="title">
         TRADING MARKET
-      </span>
+      </div>
       <div class="context">
         Materials trading market free trading, rare game disguised, NFT equipment, props.<br>
         game internal currency trading market can be traded inside the game (through the COCH\COCO\COCG market free
@@ -75,9 +75,9 @@
       </div>
     </div>
     <div class="descriptions">
-      <span class="title">
+      <div class="title">
         TRADING MARKET
-      </span>
+      </div>
       <div class="context">
         Materials trading market free trading, rare game disguised, NFT equipment, props.<br>
         game internal currency trading market can be traded inside the game (through the COCH\COCO\COCG market free
@@ -86,9 +86,9 @@
       </div>
     </div>
     <div class="descriptions">
-      <span class="title">
+      <div class="title">
         DEVELOPMENT DIRECTION
-      </span>
+      </div>
       <div class="q">
         Q3 2021
       </div>
@@ -179,9 +179,9 @@
       </div>
     </div>
     <div class="descriptions">
-      <span class="title">
+      <div class="title">
         RISK STATEMENT
-      </span>
+      </div>
       <div class="context">
         Clash of clans has not made or intended to make any other provisions in this legal statement or any statements
         explicitly or implicitly in the current information, and hereby declares that it will not make any
@@ -247,7 +247,7 @@
           other relevant token storage mechanism, operation, function, use, storage,transmission mechanism and other
           substantive features of blockchain technology and smart contract technology;
         </div>
-        <div>
+        <div class="end">
            you fully understand and understand that there are risks related to the following asoects.
         </div>
       </div>
@@ -287,53 +287,60 @@ export default {
   justify-content: flex-end;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
     url("../static/faq/bg.png");
-  min-width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   flex-direction: column;
-  padding-top: 13rem;
+  padding-top: 244px;
 }
-span {
-  font-size: 1rem;
+.title {
   color: #fcf181;
-  margin: 1vw 0 0 4vw;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 47px 0;
+  padding: 0 12.7vw;
 }
 p {
-  margin-left: 4vw;
-  font-size: 1rem;
   color: #fcf181;
   text-decoration: underline;
   font-family: -webkit-pictograph;
-  margin-bottom: 0.7vw;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding: 0 12.7vw;
 }
 p:hover {
   cursor: pointer;
 }
 .context {
-  margin-left: 4vw;
   color: #fff;
-  font-size: 0.8rem;
-  padding: 2vw 0;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 12.7vw;
 }
 img {
-  height: 2rem;
-  width: 2rem;
+  width: 1.35vw;
+  height: 1.35vw;
   margin-right: 1vw;
 }
 .imgflex {
-  margin: 2vw 4vw;
   display: flex;
+  padding: 0 12.7vw;
 }
 .descriptions {
   background-color: rgba(0, 0, 0);
 }
 .q {
   color: #fcf181;
-  font-size: 1vw;
-  margin: 1vw 0 0 4vw;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 27px 0;
+  padding: 0 12.7vw;
 }
 .descriptions .context div {
-  margin: 2vh 0;
+  margin: 20px 0;
+}
+.end {
+  padding-bottom: 320px;
 }
 </style>

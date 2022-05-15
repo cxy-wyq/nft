@@ -1,34 +1,30 @@
 <template>
   <div>
     <NavigationBar class="nab" />
-    <div class="area_1">
+    <div class="area area_1">
       <img src="@/static/index/title.png" class="title" />
       <div class="context">
         THE DIMENSIONAL DAO ALLIANCE IS A DECENTRALIZED JOINT CREATION COMMUNITY
         COMPOSED OF FANS/ FANS WHO LIKE THE SECOND DIMENSION IN THE WORLD
       </div>
-      <div class="logo">
+      <div>
         <img class="app" src="@/assets/telegram.png" />
         <img class="app" src="@/assets/twitter.png" />
         <img class="app" src="@/assets/facebook.png" />
         <img class="app" src="@/assets/github.png" />
       </div>
     </div>
-    <div class="area_2">
+    <div class="area area_2">
       <div class="top">
-        <div class="title">ABOUT DIMENSIONAL</div>
-        <div class="maintitle">
-          <img src="@/static/index/line.png">
-          ABOUT DIMENSIONAL
-          <img src="@/static/index/line.png">
-        </div>
+        <img class="aboutdimensional" src="@/static/index/aboutdimensional.png">
+        <img class="aboutdimensional_1" src="@/static/index/aboutdimensional_1.png">
         <div class="rectangleflex">
           <img src="@/static/token/rectangles.png" class="rectangles" />
           <img src="@/static/token/rectangle.png" class="rectangle" />
           <img src="@/static/token/rectangles.png" class="rectangles" />
         </div>
       </div>
-      <div class="context">
+      <div class="context committed">
         <div class="rectangleflex">
           <img src="@/static/token/rectangles.png" class="rectangles" />
           <img src="@/static/token/rectangles.png" class="rectangles" />
@@ -36,27 +32,21 @@
         Committed to the refined development of DAO, in the metaverse world for
         your favorite two-dimensional IP
       </div>
-      <div>
-        <div class="context">
-          <div class="rectangleflex">
-            <img src="@/static/token/rectangles.png" class="rectangles" />
-            <img src="@/static/token/rectangles.png" class="rectangles" />
-          </div>
-          Included in Won Woo
-          <br />
-          On-site support, Metaverse creation, fan meeting and other activities
-          were carried out.
+      <div class="context">
+        <div class="rectangleflex">
+          <img src="@/static/token/rectangles.png" class="rectangles" />
+          <img src="@/static/token/rectangles.png" class="rectangles" />
         </div>
+        Included in Won Woo
+        <br />
+        On-site support, Metaverse creation, fan meeting and other activities
+        were carried out.
       </div>
     </div>
-    <div class="area_3">
+    <div class="area area_3">
       <div class="top">
-        <div class="title">PLATFORM</div>
-        <div class="maintitle">
-          <img src="@/static/index/line.png">
-          PLATFORM
-          <img src="@/static/index/line.png">
-        </div>
+        <img class="platform" src="@/static/index/platform.png">
+        <img class="platform_1" src="@/static/index/platform_1.png">
         <div class="rectangleflex">
           <img src="@/static/token/rectangles.png" class="rectangles" />
           <img src="@/static/token/rectangle.png" class="rectangle" />
@@ -73,18 +63,18 @@
         ecology sharing, asset trading on the chain, platform arena and other
         functions.
       </div>
-      <img src="@/assets/bottom.png" />
+      <img class="bottom" src="@/assets/bottom.png" />
       <div class="feature">
         <div class="feature_item">
           <div>
-            <img src="@/assets/speciality.png" />
+            <img class="app" src="@/assets/speciality.png" />
           </div>
           <div class="feature_name">speciality</div>
           <div>The most professional development team</div>
         </div>
-        <div class="feature_item">
+        <div class="feature_item safety">
           <div>
-            <img src="@/assets/safety.png" />
+            <img class="app" src="@/assets/safety.png" />
           </div>
           <div class="feature_name">safety</div>
           <div>
@@ -93,20 +83,22 @@
         </div>
         <div class="feature_item">
           <div>
-            <img src="@/assets/Fast.png" />
+            <img class="app" src="@/assets/Fast.png" />
           </div>
           <div class="feature_name">Fast</div>
           <div>Create faster block chain network applications</div>
         </div>
       </div>
     </div>
-    <div class="area_4">
-      <div class="main">
+    <div class="area area_4">
+      <div>
         <div class="title">DIMENSIONAL TECHNOLOGY DESCRIPTION</div>
         <div class="orthogon"></div>
-        <div class="context">
+      </div>
+      <div class="main">
+        <div>
           <li>About SDK</li>
-          <div>
+          <div class="context">
             The abbreviation for middleware is SDK. The SDK provided by DIM
             includes user wallets, blockchain browser interfaces, authentication
             signatures, anti-cheat modules, Websockets and events, Solidity +
@@ -114,9 +106,9 @@
             functions.
           </div>
         </div>
-        <div class="context">
+        <div>
           <li>SDK Technical Description</li>
-          <div>
+          <div class="context">
             Middleware is an independent system software or service program that
             distributed applications use to share resources between different
             technologies. The benefits of Gmatrixs SDK middleware to game
@@ -128,42 +120,36 @@
         </div>
       </div>
     </div>
-    <div class="area_5">
+    <div class="area area_5">
+      <div class="title">DIMENSIONAL TECHNOLOGY DESCRIPTION</div>
+      <div class="orthogon"></div>
+      <div class="explain">
+        Dimensional provides technical and innovative solutions to game
+        development companies.
+      </div>
       <div class="main">
-        <div class="title">DIMENSIONAL TECHNOLOGY DESCRIPTION</div>
-        <div class="orthogon"></div>
-        <div class="explain">
-          Dimensional provides technical and innovative solutions to game
-          development companies.
-        </div>
-        <div class="context">
-          <div class="context_left">
-            <div class="icon_5">
-              <img src="@/assets/area_5_left.png" />
-            </div>
-            <div class="context_title">SDK multi-chain integration</div>
-            <div class="context_main">
-              The SDK integration multiple chains provide by DIM(ETH/BSC/HECO)
-              uses the same procedure of access from ftraditional SDK,thus no
-              additional learning costs.
-            </div>
+        <div class="context_left">
+          <img src="@/assets/area_5_left.png" />
+          <div class="context_title">SDK multi-chain integration</div>
+          <div class="context_main">
+            The SDK integration multiple chains provide by DIM(ETH/BSC/HECO)
+            uses the same procedure of access from ftraditional SDK,thus no
+            additional learning costs.
           </div>
-          <div class="context_right">
-            <div class="icon_5">
-              <img src="@/assets/area_5_right.png" />
-            </div>
-            <div class="context_title">Decentralized server framework</div>
-            <div class="context_main">
-              Middleware is an independent system software or service program
-              that distributed applications use to share resources between
-              different technologies. The benefits of Dimensional SDK middleware
-              to game applications are not only simple access.
-            </div>
+        </div>
+        <div class="context_right">
+          <img src="@/assets/area_5_right.png" />
+          <div class="context_title">Decentralized server framework</div>
+          <div class="context_main">
+            Middleware is an independent system software or service program
+            that distributed applications use to share resources between
+            different technologies. The benefits of Dimensional SDK middleware
+            to game applications are not only simple access.
           </div>
         </div>
       </div>
     </div>
-    <div class="area_6">
+    <div class="area area_6">
       <div class="main">
         <div class="main_item">
           <div class="year">2020</div>
@@ -283,46 +269,44 @@
         </div>
         <div class="main_item main_item_end">
           <div class="year">
-            <img src="@/assets/left.png" class="year" />
+            <img src="@/assets/left.png" />
           </div>
         </div>
       </div>
     </div>
-    <div class="area_5 area_7">
-      <div class="main">
-        <div class="title">STRATEGIC PARTHERS</div>
-        <div class="orthogon"></div>
-        <div class="trademark">
-          <div class="bg">
-            <img src="@/static/index/bitcoin.png" />
-          </div>
-          <div class="bg">
-            <img src="@/static/index/eth.png" />
-          </div>
-          <div class="bg">
-            <img src="@/static/index/neo.png" />
-          </div>
-          <div class="bg">
-            <img src="@/static/index/eosio.png" />
-          </div>
-          <div class="bg">
-            <img src="@/static/index/filecoin.png" />
-          </div>
-          <div class="bg">
-            <img src="@/static/index/near.png" />
-          </div>
-          <div class="bg">
-            <img src="@/static/index/nabox.png" />
-          </div>
-          <div class="bg">
-            <img src="@/static/index/polkadot.png" />
-          </div>
-          <div class="bg">
-            <img src="@/static/index/reef.png" />
-          </div>
-          <div class="bg">
-            <img src="@/static/index/maze.png" />
-          </div>
+    <div class="area area_7">
+      <div class="title">STRATEGIC PARTHERS</div>
+      <div class="orthogon"></div>
+      <div class="trademark">
+        <div class="bg">
+          <img src="@/static/index/bitcoin.png" />
+        </div>
+        <div class="bg">
+          <img src="@/static/index/eth.png" />
+        </div>
+        <div class="bg">
+          <img src="@/static/index/neo.png" />
+        </div>
+        <div class="bg">
+          <img src="@/static/index/eosio.png" />
+        </div>
+        <div class="bg">
+          <img src="@/static/index/filecoin.png" />
+        </div>
+        <div class="bg">
+          <img src="@/static/index/near.png" />
+        </div>
+        <div class="bg">
+          <img src="@/static/index/nabox.png" />
+        </div>
+        <div class="bg">
+          <img src="@/static/index/polkadot.png" />
+        </div>
+        <div class="bg">
+          <img src="@/static/index/reef.png" />
+        </div>
+        <div class="bg">
+          <img src="@/static/index/maze.png" />
         </div>
       </div>
     </div>
@@ -337,329 +321,312 @@ export default {
     NavigationBar,
     Base,
   },
+  mounted () {
+  }
 };
 </script>
 <style scoped>
 .nab {
   position: absolute;
 }
+.title {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 59px;
+  margin-top: 167px;
+}
+.orthogon {
+  width: 9.4vw;
+  height: 10px;
+  background: #f2b21b;
+  border-radius: 0px;
+  margin: 85px 0;
+}
+@media screen and (max-width: 581px) {
+  .area {
+    min-height: auto;
+    width: 100vw;
+  }
+}
 .area_1 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
     url("../static/index/bg1.png");
-  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .area_1 .title {
-  width: 40rem;
-  margin-bottom: -2rem;
-  padding-top: 7rem;
+  width: 42.13vw;
+  margin-top: 667px;
 }
 .area_1 .context {
-  width: 80rem;
-  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 53.64vw;
   text-align: center;
-  font-size: 1vw;
+  margin: 20px 0 102px 0;
 }
-.area_1 .logo {
-  margin: 5rem 0;
-}
-.logo img {
-  margin: 0 2rem;
+.app {
+  width: 2vw;
+  margin-bottom: 77px;
+  margin: 0 1.14vw;
 }
 .area_2 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
     url("../static/index/bg2.jpg");
-  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.area_2 .title {
-  font-size: 4vw;
-  margin-top: 2rem;
+  padding: 44px 0 322px 0;
   color: #ffffff;
-  text-shadow: 0px 3px 20px #438dee;
-  opacity: 0.27;
-  text-align: center;
 }
-.area_2 .maintitle {
-  font-size: 3vw;
-  color: #ffffff;
-  text-shadow: 0px 3px 20px #f2b21b;
-  opacity: 1;
-  text-align: center;
-  display: flex;
-  align-items: center;
+.aboutdimensional {
+  width: 50.21vw;
 }
-.area_2 .maintitle img {
-  width: 20vw;
+.aboutdimensional_1 {
+  width: 70.21vw;
+  margin-top: -5vw;
 }
-
 .area_2 .context {
-  color: #fff;
   text-align: center;
-  margin: 4rem 0;
-  font-size: 1vw;
+  font-size: 20px;
+  font-weight: 500;
 }
-.rectangleflex {
-  text-align: center;
+.committed {
+  margin: 224px 0 104px 0;
+}
+.area_2 .context .rectangles {
+  margin: 0 -0.5vw;
 }
 .rectangles {
-  width: 2rem;
-  height: 2rem;
+  width: 2.7vw;
+  height: 2.7vw;
 }
 .rectangle {
-  width: 2rem;
-  height: 2rem;
-  margin: 0 -1rem;
-}
-
-.area_2 .context .rectangleflex .rectangles {
-  margin: 0 -0.5rem;
+  width: 3vw;
+  height: 3vw;
+  margin: 0 -1vw;
 }
 .area_3 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
   background-color: #000;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.area_3 .title {
-  font-size: 4vw;
-  margin-top: 2rem;
-  color: #ffffff;
-  text-shadow: 0px 3px 20px #438dee;
-  opacity: 0.27;
-  text-align: center;
-}
-.area_3 .maintitle {
-  font-size: 3vw;
-  color: #ffffff;
-  text-shadow: 0px 3px 20px #f2b21b;
-  opacity: 1;
-  text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  padding: 100px 0 59px 0;
+  color: #ffffff;
 }
-.area_3 .maintitle img {
-  width: 20vw;
+.top {
+  text-align: center;
+}
+.platform {
+  width: 50.21vw;
+}
+.platform_1 {
+  width: 70.21vw;
+  margin-top: -5vw;
+}
+.area_3 .rectangleflex {
+  margin-top: -20px;
 }
 .area_3 .context {
-  color: #fff;
-  width: 70vw;
+  font-size: 20px;
+  font-weight: 500;
+  width: 74.58vw;
   text-align: center;
-  margin: 4rem 0;
-  font-size: 1.3vw;
+  margin: 99px 0 30px 0;
+}
+.bottom {
+  width: 30px;
 }
 .feature {
   display: flex;
-  width: 80rem;
-  justify-content: center;
-  font-size: 1vw;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 67px;
 }
 .feature_item {
-  width: 20%;
+  width: 15.26vw;
   display: flex;
   justify-content: top;
   text-align: center;
   color: #fff;
   flex-direction: column;
-  margin: 5rem 0;
+}
+.safety {
+  margin: 0 6.25vw;
+}
+.feature_item .app {
+  width: 5vw;
 }
 .feature_name {
-  margin: 1rem 0;
+  font-size: 26px;
+  font-family: PingFang SC-Heavy, PingFang SC;
+  font-weight: 800;
+  margin: 29px 0 24px 0;
 }
 .area_4 {
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../static/index/bg3.png");
-  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #000;
-  color: #fff;
+  color: #ffffff;
 }
-.main {
-  width: 80%;
-  margin: 4rem auto;
-}
-.main .title {
-  font-size: 3vw;
-  margin: 4rem 0 3rem 0;
-  text-align: center;
-}
-.area_4 .main .orthogon {
-  width: 22rem;
-  height: 10px;
+.area_4 .orthogon {
   background: #ffffff;
-  opacity: 1;
-  border-radius: 0px;
-}
-.area_4 .main .context li {
-  margin: 3rem 0;
-  font-size: 2vw;
-}
-.area_4 .main .title {
-  text-align: left;
+  margin: 85px 0;
 }
 .area_4 .main {
-  font-size: 1vw;
+  font-size: 20px;
+  font-weight: 500;
+  width: 66.8vw;
+  margin-bottom: 10vh;
+}
+.area_4 .main li {
+  font-size: 32px;
+  font-weight: 800;
+}
+.area_4 .context {
+  margin: 24px 0;
 }
 .area_5 {
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
+  align-items: center;
   background-color: #000;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-}
-.area_5 .main .orthogon {
-  width: 182px;
-  height: 10px;
-  background: #f2b21b;
-  margin: auto;
+  color: #ffffff;
 }
 .explain {
   text-align: center;
-  margin: 3rem 0;
-  font-size: 1vw;
+  margin-bottom: 54px;
+  font-size: 20px;
 }
-.area_5 .main .context {
-  display: flex;
-  justify-content: center;
-  font-size: 1vw;
-}
-.area_5 .main .context .context_right {
-  width: 20rem;
-  min-height: 20rem;
-  margin-left: 5rem;
-  border-radius: 1rem;
+.context_right {
+  margin-left: 3.59vw;
+  width: 29.53vw;
+  height: 29.53vw;
+  border-radius: 10px;
   background-color: #f2b21b;
-  color: #fff;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 1rem 1rem;
-}
-.area_5 .main .context .context_left {
-  width: 20rem;
-  min-height: 20rem;
-  border-radius: 1rem;
-  background-color: #fff;
-  color: #000;
-  border: #f2b21b 1px solid;
-  display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   padding: 0rem 1rem;
 }
-.context .context_main {
-  font-size: 0.6rem;
+.context_left {
+  width: 29.53vw;
+  height: 29.53vw;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  border: #f2b21b 1px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0rem 1rem;
 }
-.context .context_title {
-  margin: 2rem 0;
+.context_title {
+  font-size: 25px;
+  font-weight: 800;
+  margin: 57px 0;
 }
-.icon_5 img {
-  height: 3rem;
+.context_main {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 74px;
+}
+.area_5 img {
+  margin-top: 61px;
+  width: 3.17vw;
+}
+.area_5 .main {
+  display: flex;
+  margin-bottom: 85px;
 }
 .area_6 {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
     url("../static/index/bg4.png");
-  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: #000;
 }
 .area_6 .main {
   display: flex;
-  margin: auto;
+  justify-content: center;
 }
 .main .main_item {
-  width: 25%;
-  min-height: 100vh;
+  width: 20%;
   background: #fff;
-  padding: 1rem;
+  padding-bottom: 93px;
+  border-left: 3px dashed #000000;
+  padding-right: 40px;
 }
 .main .main_item_end {
   background: rgba(255, 255, 255, 0.5);
+}
+.main_item_end img {
+  width: 1.61vw;
 }
 .canvas {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 1rem;
   flex-shrink: 0;
+  margin: 0 16px 0 48px;
 }
 .radio {
-  border-radius: 10rem;
+  border-radius: 15px;
   background: #f2b21b;
-  width: 1rem;
-  height: 1rem;
+  width: 15px;
+  height: 15px;
 }
 .line {
-  border-left: 1px dashed #f2b21b;
-  height: calc(100% - 1rem);
+  border-left: 3px dashed #f2b21b;
+  height: 100%;
 }
 .paragraph {
   display: flex;
 }
 .main_item .year {
-  font-size: 3vw;
-  font-weight: 1000;
+  font-size: 83px;
+  font-family: FontName-Regular, FontName;
+  font-weight: 600;
   text-align: center;
   margin: 1rem 0;
 }
 .contetx_title {
-  font-size: 1vw;
+  font-size: 25px;
   font-weight: 800;
   display: flex;
   align-items: center;
 }
 .area_6 .context {
   margin: 1rem 0;
-  font-size: 1vw;
+  font-size: 16px;
+  font-weight: 500;
 }
 .area_7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
     url("../static/index/bg5.png");
-  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: #fff;
-}
-.area_7 .main {
-  width: 95%;
-  padding: 10rem 0;
 }
 .trademark {
   width: 90vw;
-  margin: 5rem auto;
+  margin: 98px auto 318px auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

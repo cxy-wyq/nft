@@ -63,18 +63,22 @@ export default {
   position: absolute;
 }
 .main {
-  background: #000;
+  background: #000000;
   color: #fff;
-  padding: 0 5rem;
-  min-height: 70vh;
+  padding-top: 143px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .top {
-  margin-top: 10rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   border-bottom: 1px solid #f2b21b;
-  padding: 1rem 0;
+  height: 68px;
+  width: 74.58vw;
+  font-size: 20px;
+  font-weight: 400;
 }
 .left {
   color: rgba(255, 255, 255, 0.5);
@@ -87,19 +91,24 @@ export default {
   align-items: center;
 }
 .right img {
-  height: 2rem;
+  width: 1.19vw;
+}
+.new {
+  width: 74.58vw;
 }
 .title {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 2rem;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 63px;
 }
 .day {
-  margin: 2rem 0;
-  font-size: 1.3rem;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0 42px 0;
 }
 .new_context {
-  font-size: 1rem;
-  margin-bottom: 8rem;
+  padding-bottom: 59px;
+  font-size: 18px;
+  font-weight: 400;
 }
 </style>

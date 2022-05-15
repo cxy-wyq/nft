@@ -3,13 +3,13 @@
     <NavigationBar class="nab" />
     <div class="top">
       <div class="textdiv">
-        <div class="titles">
+        <div class="row_1">
           Information
         </div>
-        <div class="titles">
+        <div class="row_2">
           It's a news headline.
         </div>
-        <div>
+        <div class="row_3">
           Blockchain, a distributed database system, originated from bitcoin ... ...
         </div>
         <div class="day">
@@ -81,10 +81,8 @@ export default {
 .top {
   display: flex;
   justify-content: center;
-  min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
     url("../static/news/bg.png");
-  min-width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -92,28 +90,36 @@ export default {
 }
 .top .textdiv {
   display: flex;
-  /* height: 100%; */
   flex-direction: column;
   justify-content: space-between;
-  margin: 5rem;
-  margin-top: 8rem;
-  font-size: 1rem;
   color: #fff;
+  margin-left: 12.7vw;
 }
-.textdiv .titles {
-  font-size: 3rem;
+.row_1 {
+  font-size: 114px;
   font-weight: 400;
-  margin: 2rem 0;
+  margin: 380px 0 104px 0;
+}
+.row_2 {
+  font-size: 67px;
+  font-weight: 800;
+}
+.row_3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 41px 0 255px 0;
 }
 .textdiv .day {
   background: #000;
-  width: 6rem;
-  height: 2rem;
+  font-size: 30px;
+  font-weight: 400;
+  height: 90px;
+  width: 12.6vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
   box-shadow: 0 0 10px 10px #000;
+  margin: 0 0 136px 47px;
 }
 .main {
   background: #000;
@@ -121,31 +127,34 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0;
 }
 .news {
   background: linear-gradient(89deg, #505050 0%, rgba(0, 0, 0, 0) 100%);
-  width: 80vw;
-  margin: 1rem 0;
   color: #ffffff;
-  padding: 1rem;
-  font-size: 0.3rem;
+  width: 74.58vw;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 42px;
+  padding: 70px 7.03vw 59px 1.35vw;
 }
 .news .title {
-  font-size: 2rem;
+  font-size: 48px;
+  font-weight: 800;
 }
 .news .day {
-  margin: 1rem 0;
-  font-size: 1rem;
+  font-size: 22px;
+  font-weight: 800;
+  margin: 2px 0 18px 0;
 }
 .pagination {
+  font-size: 21px;
+  font-weight: 400;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #000;
-  padding: 2rem 0;
   color: #3e3e3e;
-  font-size: 1rem;
 }
 </style>
 <style>

@@ -64,38 +64,44 @@
 .context {
   background: #000;
   width: 100vw;
-  padding: 3vh 0 8vh 0;
-  color: #ffffff;
-  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 111px 0 141px 0;
 }
 .logo {
-  margin-top: -1rem;
-  width: 9rem;
+  margin-top: -40px;
+  width: 10.32vw;
 }
+
 p {
-  margin: 1vh 0;
+  margin-bottom: 20px;
   opacity: 0.7;
 }
 .title {
-  opacity: 1;
-  margin: 2vh 0;
+  color: #ffffff;
+  margin-bottom: 28px;
+  font-size: 16px;
+  font-weight: 800;
 }
 .explain {
   width: 100vw;
   background: #f2b21b;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.7);
-  padding: 3vh 0;
+  padding: 31px 0;
   text-align: center;
 }
 a {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
+
 .app {
-  width: 1rem;
-  height: 1rem;
+  width: 1.35vw;
+  height: 1.35vw;
 }
 </style>

@@ -34,29 +34,31 @@ export default {
   flex-direction: column;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
     url("../static/token/bg.png");
-  min-height: 100vh;
+  background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .title {
-  width: 70rem;
+  width: 59.21vw;
+  margin-top: 564px;
 }
 .context {
-  margin-top: -5rem;
   display: flex;
   align-items: center;
+  margin-top: -5.43vw;
 }
 .rectangles {
-  width: 4rem;
-  height: 4rem;
+  width: 2.7vw;
+  height: 2.7vw;
 }
 .rectangle {
-  width: 6rem;
-  height: 6rem;
+  width: 3vw;
+  height: 3vw;
+  margin: 0 -1vw;
 }
 .pancake {
-  width: 20rem;
-  padding-bottom: 8rem;
+  width: 24.01vw;
+  margin: 85px 0 218px 0;
 }
 </style>
